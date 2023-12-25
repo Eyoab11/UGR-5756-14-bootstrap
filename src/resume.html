@@ -4,56 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
 </head>
 <body>
-    <div id="resume">
-        <div class="container">
-            <img src="Images/BackgroundPicture.avif" alt="background image">
-            <div class="navigation">
-                <nav>
-                    <img src="Images/Logo1.png" alt="Picture of a logo" class="logo">
-                    <ul>
-                        <li><a href="homepage.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="skills.html">Skills</a></li>
-                        <li class="special"><a href="#">Resume</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </nav>
-            </div>
-            <div class="boxes">
-                <div class="box1">
-                    <h2>Certificates Awarded</h2>
-                    <ol>
-                        <li>Networking: Cisco Packet Tracer</li>
-                        <li>Networking: Cisco</li>
-                    </ol>
-                </div>
-                <div class="box2">
-                    <h2>Courses Completed</h2>
-                    <ol>
-                        <li>Data Structures and Algorithms</li>
-                        <li>Fundamentals of Java</li>
-                        <li>Fundamentals of Python</li>
-                        <li>Fundamentals of Networking</li>
-                        <li>Database</li>
-                        <li>Discrete Mathematics</li>
-                    </ol>
-                </div>
-                <div class="box3">
-                    <h2>Now Learing</h2>
-                    <ol>
-                        <li>Web Designing</li>
-                        <li>Computer Architecture and Organization</li>
-                        <li>Fundamentals of Software Engineering</li>
-                        <li>Human Computer Interaction</li>
-                    </ol>
-                </div>
+    <nav class="navbar bg-dark-subtle navbar-expand py-xl-2">
+        <div class="container-xxl d-flex flex-column flex-md-row ">
+            
+            <img src="Images/Logo1.png" alt="Picture of a logo" class="w-25 h-25">
+            <div class="justify-content-end align-center" id="main-nav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a href="homepage.html" class="nav-link text-black">Home</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link text-black">About</a></li>
+                    <li class="nav-item"><a href="skills.html" class=" nav-link text-black">Skills</a></li>
+                    <li class="nav-item"><a href="resume.html" class="nav-link text-black">Resume</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link text-black">Contact</a></li>
+                </ul>
             </div>
         </div>
-    </div>
-    <footer>
-        <p>Contact: eyoabamare3@gmail.com | 09-77-34-21-60</p>
-    </footer>
+        </nav>
+            <div class="container mt-5">
+                <h1 class="display-3 fw-bold">Resume</h1>
+
+                <div class="row mt-2 mb-36">
+                    <div class="col-md-4 ">
+                        <h2 class="text-danger fw-bold my-4 ">Certificates Awarded</h2>
+                        <ol>
+                            <li>Networking: Cisco Packet Tracer</li>
+                            <li>Networking: Cisco</li>
+                        </ol>
+                    </div>
+                    <div class="col-md-4 ">
+                        <h2 class="text-danger fw-bold my-4 ">Courses Completed</h2>
+                        <ol>
+                            <li>Data Structures and Algorithms</li>
+                            <li>Fundamentals of Java</li>
+                            <li>Fundamentals of Python</li>
+                            <li>Fundamentals of Networking</li>
+                            <li>Database</li>
+                            <li>Discrete Mathematics</li>
+                        </ol>
+                    </div>
+                    <div class="col-md-4">
+                        <h2 class="text-danger fw-bold my-4">Now Learning</h2>
+                        <ol>
+                            <li>Web Designing</li>
+                            <li>Computer Architecture and Organization</li>
+                            <li>Fundamentals of Software Engineering</li>
+                            <li>Human Computer Interaction</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+<footer class="bg-dark-subtle py-2 py-sm-3 text-black text-center mt-lg-4">
+    <p>Contact: eyoabamare3@gmail.com | 09-77-34-21-60</p>
+</footer>  
 </body>
 </html>

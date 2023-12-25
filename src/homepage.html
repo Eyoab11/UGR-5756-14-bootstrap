@@ -4,34 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    
 
 </head>
-<body>
-    <div id="header">
-        <div class="container" > 
-            <img src="Images/BackgroundPicture.avif" alt="background for the web">
-            <nav>
-                <img src="Images/Logo1.png" alt="Picture of a logo" class="logo">
->
-                <ul>
-                    <li class="special"><a href="#">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="skills.html">Skills</a></li>
-                    <li><a href="resume.html">Resume</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+<body> 
+    <nav class="navbar bg-dark-subtle navbar-expand py-xl-2">
+        <div class="container-xxl d-flex flex-column flex-md-row ">
+            
+            <img src="Images/Logo1.png" alt="Picture of a logo" class="w-25 h-25">
+            <div class="justify-content-end align-center" id="main-nav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a href="homepage.html" class="nav-link text-black">Home</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link text-black ">About</a></li>
+                    <li class="nav-item"><a href="skills.html" class=" nav-link text-black ">Skills</a></li>
+                    <li class="nav-item"><a href="resume.html" class="nav-link text-black ">Resume</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link text-black ">Contact</a></li>
                 </ul>
-            </nav>
-            <div class="photo">
-                <img src="Images/robot.jpg" alt="Photo of eyoab amare" >
-            </div>
-            <div class="text">
-                <h1>My name is EYOAB AMARE</h1>
-                <p>I'm a software Engineering Student</p>
             </div>
         </div>
-        <footer>
-            <p>Contact: eyoabamare3@gmail.com | 09-77-34-21-60</p>
+        </nav>
+            <div class="d-flex justify-content-center align-items-center">
+                <img src="Images/robot.jpg" alt="Photo of eyoab amare" class="img-fluid mx-auto"> 
+            </div>
+            <div class="">
+                <h1 class="display-6 lead text-center fw-bold">My name is EYOAB AMARE</h1>
+                <p class="lead text-center fw-bold mb-6">I'm a software Engineering Student</p>
+            </div>
+        </div>
+        <footer class="bg-dark-subtle p-4 mt-5 text-black">
+            <p class="text-center">Contact: eyoabamare3@gmail.com | 09-77-34-21-60</p>
         </footer>
-    </div>
+    
 </body>
 </html>
